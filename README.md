@@ -1,5 +1,7 @@
 # Flood susceptibility of the Indus floodplain in Layyah District, Pakistan
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23720739.svg)](https://doi.org/10.5281/zenodo.23720739)
+
 Code and data for a machine learning flood susceptibility study of the Indus floodplain in Layyah District, Punjab. Models are trained on the Indus corridor (land within 15 km of the main stem) of six districts (Mianwali, Bhakkar, Muzaffargarh, Dera Ghazi Khan, Rajanpur and Rahim Yar Khan) and tested on Layyah, which was withheld from training, and on land first flooded after the training period.
 
 Flood labels come from the JRC Global Surface Water monthly history (2000 to 2021), extended to 2025 with Landsat 8 and 9. Predictors are terrain, drainage, soil, rainfall and dry-season Landsat indices; flood-season water indices are excluded because they record the floods themselves.
@@ -36,4 +38,4 @@ uv run --with earthengine-api --with python-dotenv --with pandas --with scikit-l
 
 ## Licence and citation
 
-Code under the MIT licence. Input datasets keep their own licences. Please cite the archived release (DOI on the Zenodo record) and the accompanying article once published.
+Code under the MIT licence. Input datasets keep their own licences. Please cite the archived release, https://doi.org/10.5281/zenodo.23720739, and the accompanying article once published.
