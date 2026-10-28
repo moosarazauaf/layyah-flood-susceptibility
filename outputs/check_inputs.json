@@ -1,0 +1,63 @@
+{
+  "districts": {
+    "Mianwali District": {
+      "area_km2": 5994.7,
+      "corridor_km2": 2858.5
+    },
+    "Bhakkar District": {
+      "area_km2": 8595.0,
+      "corridor_km2": 1377.1
+    },
+    "Muzaffargarh District": {
+      "area_km2": 7696.7,
+      "corridor_km2": 2518.8
+    },
+    "Dera Ghazi Khan District": {
+      "area_km2": 11805.6,
+      "corridor_km2": 2472.3
+    },
+    "Rajanpur District": {
+      "area_km2": 12351.1,
+      "corridor_km2": 2737.4
+    },
+    "Rahim Yar Khan District": {
+      "area_km2": 12794.6,
+      "corridor_km2": 1985.7
+    },
+    "Layyah District": {
+      "area_km2": 6354.3,
+      "corridor_km2": 1347.1
+    }
+  },
+  "distance_check_layyah": {
+    "distance_p5": 7187.134641121533,
+    "distance_p50": 40535.48384196218,
+    "distance_p95": 4170685.5000946787
+  },
+  "label_consistency": [
+    {
+      "year": 2019,
+      "both_observed_km2": 1333.01,
+      "jrc_flood_km2": 162.76,
+      "own_flood_km2": 176.31,
+      "agree_flood_km2": 122.09,
+      "iou": 0.56
+    },
+    {
+      "year": 2020,
+      "both_observed_km2": 1333.01,
+      "jrc_flood_km2": 109.35,
+      "own_flood_km2": 101.94,
+      "agree_flood_km2": 50.07,
+      "iou": 0.31
+    },
+    {
+      "year": 2021,
+      "both_observed_km2": 1333.01,
+      "jrc_flood_km2": 96.7,
+      "own_flood_km2": 129.43,
+      "agree_flood_km2": 75.36,
+      "iou": 0.5
+    }
+  ]
+}

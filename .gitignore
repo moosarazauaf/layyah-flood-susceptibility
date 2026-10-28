@@ -1,0 +1,17 @@
+.env
+*.json.key
+__pycache__/
+# manuscript stays private until publication
+paper/
+# keep results, samples and the final rasters; drop strips, imagery and large models
+outputs/*
+!outputs/*.json
+!outputs/samples/
+!outputs/revision/
+!outputs/model_logistic.joblib
+!outputs/model_xgboost.joblib
+!outputs/layyah_score.tif
+!outputs/layyah_inventory.tif
+# scratch probe and the manuscript builder (contains contact details)
+scripts/_probe_ob.py
+scripts/10_build_docx.py

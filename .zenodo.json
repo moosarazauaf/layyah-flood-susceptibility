@@ -1,0 +1,8 @@
+{
+  "title": "Code and data for: Flood susceptibility of the Indus floodplain in Layyah District, Pakistan",
+  "upload_type": "software",
+  "description": "Google Earth Engine and Python code, training and test sample points, evaluation outputs and the 30 m flood susceptibility raster for Layyah District, Pakistan. Models are trained on the Indus floodplain of six Punjab districts and tested on Layyah, which was withheld from training, and on floods after the training period.",
+  "creators": [{"name": "Raza, Muhammad Moosa", "affiliation": "RUDN University"}],
+  "license": "MIT",
+  "keywords": ["flood susceptibility", "machine learning", "Indus River", "Layyah", "Landsat", "Google Earth Engine"]
+}

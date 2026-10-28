@@ -1,0 +1,52 @@
+{
+  "bands": [
+    {
+      "from_km": 0.0,
+      "to_km": 1.0,
+      "corridor_km2": 123.6,
+      "flooded_2000_2019_km2": 116.8,
+      "first_flooded_2020_2021_km2": 0.89
+    },
+    {
+      "from_km": 1.0,
+      "to_km": 2.0,
+      "corridor_km2": 124.4,
+      "flooded_2000_2019_km2": 112.6,
+      "first_flooded_2020_2021_km2": 0.7
+    },
+    {
+      "from_km": 2.0,
+      "to_km": 3.0,
+      "corridor_km2": 121.3,
+      "flooded_2000_2019_km2": 94.6,
+      "first_flooded_2020_2021_km2": 1.82
+    },
+    {
+      "from_km": 3.0,
+      "to_km": 5.0,
+      "corridor_km2": 207.2,
+      "flooded_2000_2019_km2": 106.7,
+      "first_flooded_2020_2021_km2": 1.86
+    },
+    {
+      "from_km": 5.0,
+      "to_km": 8.0,
+      "corridor_km2": 247.6,
+      "flooded_2000_2019_km2": 59.8,
+      "first_flooded_2020_2021_km2": 1.02
+    },
+    {
+      "from_km": 8.0,
+      "to_km": 15.0,
+      "corridor_km2": 508.9,
+      "flooded_2000_2019_km2": 23.2,
+      "first_flooded_2020_2021_km2": 0.56
+    }
+  ],
+  "p40_distance_m": 4514,
+  "nearest40_corridor_km2": 531.5,
+  "nearest40_flooded_2000_2019_km2": 411.1,
+  "nearest40_first_flooded_2020_2021_km2": 5.02,
+  "all_flooded_2000_2019_km2": 513.7,
+  "all_first_flooded_2020_2021_km2": 6.86
+}

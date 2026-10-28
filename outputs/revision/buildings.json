@@ -1,0 +1,86 @@
+{
+  "Karor Lal Esan": {
+    "classes_4_5": {
+      "2016": {
+        "building_fractional_count": 0.0,
+        "building_presence": 0.00039
+      },
+      "2023": {
+        "building_fractional_count": 0.0,
+        "building_presence": 0.00044
+      }
+    },
+    "classes_1_3": {
+      "2016": {
+        "building_fractional_count": 6e-05,
+        "building_presence": 0.01242
+      },
+      "2023": {
+        "building_fractional_count": 8e-05,
+        "building_presence": 0.01555
+      }
+    },
+    "corridor": {
+      "2016": {
+        "building_fractional_count": 4e-05,
+        "building_presence": 0.0091
+      },
+      "2023": {
+        "building_fractional_count": 6e-05,
+        "building_presence": 0.01139
+      }
+    },
+    "tehsil": {
+      "2016": {
+        "building_fractional_count": 5e-05,
+        "building_presence": 0.01064
+      },
+      "2023": {
+        "building_fractional_count": 6e-05,
+        "building_presence": 0.01408
+      }
+    }
+  },
+  "Leiah": {
+    "classes_4_5": {
+      "2016": {
+        "building_fractional_count": 1e-05,
+        "building_presence": 0.00115
+      },
+      "2023": {
+        "building_fractional_count": 1e-05,
+        "building_presence": 0.00134
+      }
+    },
+    "classes_1_3": {
+      "2016": {
+        "building_fractional_count": 9e-05,
+        "building_presence": 0.0201
+      },
+      "2023": {
+        "building_fractional_count": 0.00012,
+        "building_presence": 0.02619
+      }
+    },
+    "corridor": {
+      "2016": {
+        "building_fractional_count": 5e-05,
+        "building_presence": 0.01199
+      },
+      "2023": {
+        "building_fractional_count": 7e-05,
+        "building_presence": 0.01556
+      }
+    },
+    "tehsil": {
+      "2016": {
+        "building_fractional_count": 5e-05,
+        "building_presence": 0.01119
+      },
+      "2023": {
+        "building_fractional_count": 7e-05,
+        "building_presence": 0.01509
+      }
+    }
+  }
+}

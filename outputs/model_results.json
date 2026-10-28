@@ -1,0 +1,222 @@
+{
+  "n": {
+    "train": 9600,
+    "test_spatial": 2000,
+    "test_temporal": 2000,
+    "test_recent_supplementary": 2000
+  },
+  "baselines": {
+    "layyah_spatial": {
+      "baseline_dist_indus": {
+        "auc_roc": 0.887,
+        "auc_pr": 0.884,
+        "n": 2000
+      },
+      "baseline_hand": {
+        "auc_roc": 0.456,
+        "auc_pr": 0.507,
+        "n": 2000
+      }
+    },
+    "layyah_temporal": {
+      "baseline_dist_indus": {
+        "auc_roc": 0.878,
+        "auc_pr": 0.856,
+        "n": 2000
+      },
+      "baseline_hand": {
+        "auc_roc": 0.402,
+        "auc_pr": 0.463,
+        "n": 2000
+      }
+    },
+    "layyah_recent_supplementary": {
+      "baseline_dist_indus": {
+        "auc_roc": 0.764,
+        "auc_pr": 0.726,
+        "n": 2000
+      },
+      "baseline_hand": {
+        "auc_roc": 0.506,
+        "auc_pr": 0.51,
+        "n": 2000
+      }
+    },
+    "train": {
+      "baseline_dist_indus": {
+        "auc_roc": 0.85,
+        "auc_pr": 0.847,
+        "n": 9600
+      },
+      "baseline_hand": {
+        "auc_roc": 0.515,
+        "auc_pr": 0.532,
+        "n": 9600
+      }
+    }
+  },
+  "models": {
+    "logistic": {
+      "block_cv": {
+        "auc_roc": 0.912,
+        "auc_pr": 0.911,
+        "n": 9600
+      },
+      "lodo": {
+        "Bhakkar": {
+          "auc_roc": 0.945,
+          "auc_pr": 0.941,
+          "n": 1600
+        },
+        "Dera_Ghazi_Khan": {
+          "auc_roc": 0.935,
+          "auc_pr": 0.93,
+          "n": 1600
+        },
+        "Mianwali": {
+          "auc_roc": 0.88,
+          "auc_pr": 0.878,
+          "n": 1600
+        },
+        "Muzaffargarh": {
+          "auc_roc": 0.944,
+          "auc_pr": 0.946,
+          "n": 1600
+        },
+        "Rahim_Yar_Khan": {
+          "auc_roc": 0.911,
+          "auc_pr": 0.914,
+          "n": 1600
+        },
+        "Rajanpur": {
+          "auc_roc": 0.856,
+          "auc_pr": 0.858,
+          "n": 1600
+        }
+      },
+      "layyah_spatial": {
+        "auc_roc": 0.936,
+        "auc_pr": 0.943,
+        "n": 2000
+      },
+      "layyah_temporal": {
+        "auc_roc": 0.881,
+        "auc_pr": 0.887,
+        "n": 2000
+      },
+      "layyah_recent_supplementary": {
+        "auc_roc": 0.737,
+        "auc_pr": 0.73,
+        "n": 2000
+      }
+    },
+    "random_forest": {
+      "block_cv": {
+        "auc_roc": 0.938,
+        "auc_pr": 0.938,
+        "n": 9600
+      },
+      "lodo": {
+        "Bhakkar": {
+          "auc_roc": 0.966,
+          "auc_pr": 0.97,
+          "n": 1600
+        },
+        "Dera_Ghazi_Khan": {
+          "auc_roc": 0.919,
+          "auc_pr": 0.923,
+          "n": 1600
+        },
+        "Mianwali": {
+          "auc_roc": 0.767,
+          "auc_pr": 0.8,
+          "n": 1600
+        },
+        "Muzaffargarh": {
+          "auc_roc": 0.941,
+          "auc_pr": 0.943,
+          "n": 1600
+        },
+        "Rahim_Yar_Khan": {
+          "auc_roc": 0.92,
+          "auc_pr": 0.927,
+          "n": 1600
+        },
+        "Rajanpur": {
+          "auc_roc": 0.853,
+          "auc_pr": 0.866,
+          "n": 1600
+        }
+      },
+      "layyah_spatial": {
+        "auc_roc": 0.939,
+        "auc_pr": 0.947,
+        "n": 2000
+      },
+      "layyah_temporal": {
+        "auc_roc": 0.875,
+        "auc_pr": 0.878,
+        "n": 2000
+      },
+      "layyah_recent_supplementary": {
+        "auc_roc": 0.66,
+        "auc_pr": 0.676,
+        "n": 2000
+      }
+    },
+    "xgboost": {
+      "block_cv": {
+        "auc_roc": 0.949,
+        "auc_pr": 0.947,
+        "n": 9600
+      },
+      "lodo": {
+        "Bhakkar": {
+          "auc_roc": 0.972,
+          "auc_pr": 0.973,
+          "n": 1600
+        },
+        "Dera_Ghazi_Khan": {
+          "auc_roc": 0.92,
+          "auc_pr": 0.92,
+          "n": 1600
+        },
+        "Mianwali": {
+          "auc_roc": 0.798,
+          "auc_pr": 0.821,
+          "n": 1600
+        },
+        "Muzaffargarh": {
+          "auc_roc": 0.946,
+          "auc_pr": 0.948,
+          "n": 1600
+        },
+        "Rahim_Yar_Khan": {
+          "auc_roc": 0.928,
+          "auc_pr": 0.931,
+          "n": 1600
+        },
+        "Rajanpur": {
+          "auc_roc": 0.85,
+          "auc_pr": 0.859,
+          "n": 1600
+        }
+      },
+      "layyah_spatial": {
+        "auc_roc": 0.947,
+        "auc_pr": 0.954,
+        "n": 2000
+      },
+      "layyah_temporal": {
+        "auc_roc": 0.903,
+        "auc_pr": 0.89,
+        "n": 2000
+      },
+      "layyah_recent_supplementary": {
+        "auc_roc": 0.68,
+        "auc_pr": 0.693,
+        "n": 2000
+      }
+    }
+  }
+}

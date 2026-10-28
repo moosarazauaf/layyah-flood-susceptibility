@@ -1,0 +1,120 @@
+{
+  "importance": {
+    "xgboost": {
+      "spatial": {
+        "ndvi_dry": 0.156,
+        "dist_indus": 0.141,
+        "elev": 0.026,
+        "slope": 0.009,
+        "clay": 0.009,
+        "ndbi_dry": 0.008,
+        "dist_drain": 0.005,
+        "rain": 0.005,
+        "hand": 0.003,
+        "twi": 0.001
+      },
+      "temporal": {
+        "dist_indus": 0.266,
+        "ndvi_dry": 0.092,
+        "elev": 0.043,
+        "clay": 0.034,
+        "ndbi_dry": 0.016,
+        "rain": 0.013,
+        "slope": -0.0,
+        "twi": -0.001,
+        "hand": -0.002,
+        "dist_drain": -0.004
+      }
+    },
+    "random_forest": {
+      "spatial": {
+        "dist_indus": 0.164,
+        "ndvi_dry": 0.078,
+        "slope": 0.016,
+        "clay": 0.014,
+        "elev": 0.013,
+        "dist_drain": 0.01,
+        "hand": 0.002,
+        "twi": 0.001,
+        "rain": 0.001,
+        "ndbi_dry": 0.001
+      },
+      "temporal": {
+        "dist_indus": 0.275,
+        "ndvi_dry": 0.042,
+        "clay": 0.033,
+        "elev": 0.021,
+        "ndbi_dry": 0.007,
+        "hand": 0.001,
+        "slope": 0.001,
+        "twi": 0.001,
+        "rain": 0.001,
+        "dist_drain": -0.019
+      }
+    }
+  },
+  "hand": {
+    "flooded_p10_50_90": [
+      0.0,
+      0.6,
+      2.6
+    ],
+    "dry_p10_50_90": [
+      0.0,
+      0.6,
+      2.7
+    ],
+    "dist_indus_flooded_p50_m": 2668,
+    "dist_indus_dry_p50_m": 8972,
+    "share_hand_zero_flooded": 0.486,
+    "share_hand_zero_dry": 0.477,
+    "spearman_hand_vs_dist_indus": -0.134
+  },
+  "ablation": {
+    "terrain": {
+      "lodo": {
+        "Bhakkar": 0.963,
+        "Dera_Ghazi_Khan": 0.923,
+        "Mianwali": 0.793,
+        "Muzaffargarh": 0.918,
+        "Rahim_Yar_Khan": 0.883,
+        "Rajanpur": 0.819
+      },
+      "lodo_mean": 0.883,
+      "lodo_min": 0.793,
+      "layyah_spatial": 0.908,
+      "layyah_temporal": 0.825,
+      "layyah_recent_suppl": 0.632
+    },
+    "terrain+indices": {
+      "lodo": {
+        "Bhakkar": 0.972,
+        "Dera_Ghazi_Khan": 0.942,
+        "Mianwali": 0.812,
+        "Muzaffargarh": 0.942,
+        "Rahim_Yar_Khan": 0.912,
+        "Rajanpur": 0.856
+      },
+      "lodo_mean": 0.906,
+      "lodo_min": 0.812,
+      "layyah_spatial": 0.939,
+      "layyah_temporal": 0.846,
+      "layyah_recent_suppl": 0.645
+    },
+    "all": {
+      "lodo": {
+        "Bhakkar": 0.972,
+        "Dera_Ghazi_Khan": 0.92,
+        "Mianwali": 0.798,
+        "Muzaffargarh": 0.946,
+        "Rahim_Yar_Khan": 0.928,
+        "Rajanpur": 0.85
+      },
+      "lodo_mean": 0.902,
+      "lodo_min": 0.798,
+      "layyah_spatial": 0.947,
+      "layyah_temporal": 0.903,
+      "layyah_recent_suppl": 0.68
+    }
+  }
+}

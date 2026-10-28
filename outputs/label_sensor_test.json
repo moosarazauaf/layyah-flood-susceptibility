@@ -1,0 +1,50 @@
+[
+  {
+    "year": 2019,
+    "sensors": "landsat",
+    "jrc_km2": 162.8,
+    "own_km2": 176.8,
+    "agree_km2": 123.9,
+    "iou": 0.574
+  },
+  {
+    "year": 2019,
+    "sensors": "landsat+s2",
+    "jrc_km2": 162.8,
+    "own_km2": 176.3,
+    "agree_km2": 122.1,
+    "iou": 0.563
+  },
+  {
+    "year": 2020,
+    "sensors": "landsat",
+    "jrc_km2": 109.4,
+    "own_km2": 177.9,
+    "agree_km2": 93.7,
+    "iou": 0.484
+  },
+  {
+    "year": 2020,
+    "sensors": "landsat+s2",
+    "jrc_km2": 109.4,
+    "own_km2": 101.9,
+    "agree_km2": 50.1,
+    "iou": 0.311
+  },
+  {
+    "year": 2021,
+    "sensors": "landsat",
+    "jrc_km2": 96.7,
+    "own_km2": 122.5,
+    "agree_km2": 73.2,
+    "iou": 0.501
+  },
+  {
+    "year": 2021,
+    "sensors": "landsat+s2",
+    "jrc_km2": 96.7,
+    "own_km2": 129.4,
+    "agree_km2": 75.4,
+    "iou": 0.5
+  }
+]

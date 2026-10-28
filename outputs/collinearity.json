@@ -1,0 +1,46 @@
+{
+  "vif": {
+    "hand": 2.43,
+    "elev": 5.78,
+    "slope": 2.02,
+    "dist_indus": 1.24,
+    "dist_drain": 1.13,
+    "twi": 1.11,
+    "clay": 1.1,
+    "rain": 3.64,
+    "ndvi_dry": 1.61,
+    "ndbi_dry": 1.47
+  },
+  "top_spearman": [
+    [
+      "elev",
+      "rain",
+      0.926
+    ],
+    [
+      "ndvi_dry",
+      "ndbi_dry",
+      -0.685
+    ],
+    [
+      "slope",
+      "twi",
+      -0.636
+    ],
+    [
+      "hand",
+      "twi",
+      -0.441
+    ],
+    [
+      "dist_indus",
+      "ndvi_dry",
+      0.396
+    ],
+    [
+      "dist_indus",
+      "dist_drain",
+      0.273
+    ]
+  ]
+}

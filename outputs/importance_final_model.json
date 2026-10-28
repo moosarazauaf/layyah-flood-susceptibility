@@ -1,0 +1,26 @@
+{
+  "spatial": {
+    "hand": 0.0003,
+    "elev": 0.0061,
+    "slope": 0.0005,
+    "dist_indus": 0.1878,
+    "dist_drain": 0.0098,
+    "twi": 0.0015,
+    "clay": 0.0201,
+    "rain": -0.0004,
+    "ndvi_dry": 0.2561,
+    "ndbi_dry": 0.0331
+  },
+  "temporal": {
+    "hand": -0.0031,
+    "elev": 0.0064,
+    "slope": -0.0006,
+    "dist_indus": 0.2503,
+    "dist_drain": -0.0153,
+    "twi": -0.0015,
+    "clay": 0.0393,
+    "rain": 0.0004,
+    "ndvi_dry": 0.1428,
+    "ndbi_dry": 0.0431
+  }
+}

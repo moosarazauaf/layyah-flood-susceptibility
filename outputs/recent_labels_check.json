@@ -1,0 +1,17 @@
+{
+  "floods 2000-2019 (Layyah)": {
+    "dist_indus_p50_km": 2.97,
+    "ndvi_dry_p50": 0.14,
+    "share_within_3km": 0.507
+  },
+  "first flooded 2020-2021": {
+    "dist_indus_p50_km": 3.2,
+    "ndvi_dry_p50": 0.35,
+    "share_within_3km": 0.433
+  },
+  "first flooded 2022-2025 (suppl.)": {
+    "dist_indus_p50_km": 5.92,
+    "ndvi_dry_p50": 0.418,
+    "share_within_3km": 0.107
+  }
+}
